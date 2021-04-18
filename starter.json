@@ -1,0 +1,3698 @@
+[
+    {
+        "title": "番茄影视",
+        "icon": "http://www.gotv258.com/template/vfed/asset/img/favicon.png",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "group": "常看",
+        "baseUrl": "http://www.gotv258.com",
+        "searchUrl": "http://gotv258.com/index.php/vod/search.html?wd=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "a.fed-list-pics&&data-original",
+            "title": "dd.fed-deta-content h1 a span&&text",
+            "subTitle": "a.fed-list-pics span.fed-list-remarks&&text",
+            "desc": "li.fed-show-md-block div&&text",
+            "jumpUrl": "a.fed-deta-play&&href"
+        },
+        "classificationUrl": "http://gotv258.com/index.php/vod/show$area$$sort$$id$$page$$year$.html",
+        "classificationPageTemplate": "/page/$page$",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "连续剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "1"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "6"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "7"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "8"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "9"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "10"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "11"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "12"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "2"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "13"
+                    },
+                    {
+                        "label": "香港剧",
+                        "value": "14"
+                    },
+                    {
+                        "label": "台湾剧",
+                        "value": "15"
+                    },
+                    {
+                        "label": "日本剧",
+                        "value": "16"
+                    },
+                    {
+                        "label": "韩国剧",
+                        "value": "22"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "23"
+                    },
+                    {
+                        "label": "海外剧",
+                        "value": "24"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "3"
+                    },
+                    {
+                        "label": "综艺片",
+                        "value": "20"
+                    },
+                    {
+                        "label": "纪录片",
+                        "value": "21"
+                    },
+                    {
+                        "label": "音乐片",
+                        "value": "25"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "4"
+                    },
+                    {
+                        "label": "情感",
+                        "value": "20"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "template": "/area/$area$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "德国",
+                        "value": "德国"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "意大利",
+                        "value": "意大利"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "其他"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "template": "/year/$year$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "template": "/by/$sort$/",
+                "values": [
+                    {
+                        "label": "最新",
+                        "value": "time"
+                    },
+                    {
+                        "label": "最热",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "a.fed-list-pics&&data-original",
+            "title": "a.fed-list-title&&text",
+            "subTitle": "span.fed-list-desc&&text",
+            "jumpUrl": "a.fed-list-pics&&href"
+        }
+    },
+    {
+        "title": "新视派",
+        "icon": "https://www.xinshipai.vip/template/mytheme/statics/image/20200730/0c7c0d805.ico",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "https://www.xinshipai.vip/",
+        "group": "常看",
+        "searchUrl": "https://www.xinshipai.vip/vodsearch/-------------.html?wd=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "a.myui-vodlist__thumb&&data-original",
+            "title": "a.myui-vodlist__thumb&&title",
+            "subTitle": "a.myui-vodlist__thumb span.pic-text&&text",
+            "desc": "div.detail p.hidden-xs&&text",
+            "jumpUrl": "div.thumb a.myui-vodlist__thumb&&href"
+        },
+        "classificationUrl": "https://www.xinshipai.vip/vodshow/$id$-$area$-$sort$-$plot$-$language$----$page$---$year$.html",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "连续剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "1"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "6"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "7"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "8"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "9"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "10"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "11"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "12"
+                    },
+                    {
+                        "label": "纪录片",
+                        "value": "26"
+                    },
+                    {
+                        "label": "微电影",
+                        "value": "27"
+                    },
+                    {
+                        "label": "伦理片",
+                        "value": "28"
+                    },
+                    {
+                        "label": "福利片",
+                        "value": "30"
+                    },
+                    {
+                        "label": "电影解说",
+                        "value": "31"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "2"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "13"
+                    },
+                    {
+                        "label": "香台剧",
+                        "value": "14"
+                    },
+                    {
+                        "label": "日韩剧",
+                        "value": "15"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "16"
+                    },
+                    {
+                        "label": "海外剧",
+                        "value": "20"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "3"
+                    },
+                    {
+                        "label": "内地综艺",
+                        "value": "21"
+                    },
+                    {
+                        "label": "港台综艺",
+                        "value": "22"
+                    },
+                    {
+                        "label": "日韩综艺",
+                        "value": "23"
+                    },
+                    {
+                        "label": "欧美综艺",
+                        "value": "24"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "4"
+                    },
+                    {
+                        "label": "国产动漫",
+                        "value": "25"
+                    },
+                    {
+                        "label": "日韩动漫",
+                        "value": "32"
+                    },
+                    {
+                        "label": "欧美动漫",
+                        "value": "33"
+                    },
+                    {
+                        "label": "港台动漫",
+                        "value": "34"
+                    },
+                    {
+                        "label": "海外动漫",
+                        "value": "35"
+                    },
+                    {
+                        "label": "动漫电影",
+                        "value": "36"
+                    }
+                ]
+            },
+            {
+                "title": "剧情",
+                "templateKey": "plot",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "喜剧"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "爱情"
+                    },
+                    {
+                        "label": "恐怖",
+                        "value": "恐怖"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "动作"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "科幻"
+                    },
+                    {
+                        "label": "剧情",
+                        "value": "剧情"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "战争"
+                    },
+                    {
+                        "label": "警匪",
+                        "value": "警匪"
+                    },
+                    {
+                        "label": "犯罪",
+                        "value": "犯罪"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "动画"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "奇幻"
+                    },
+                    {
+                        "label": "武侠",
+                        "value": "武侠"
+                    },
+                    {
+                        "label": "冒险",
+                        "value": "冒险"
+                    },
+                    {
+                        "label": "枪战",
+                        "value": "枪战"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "悬疑"
+                    }
+                ]
+            },
+            {
+                "title": "语言",
+                "templateKey": "language",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "国语",
+                        "value": "国语"
+                    },
+                    {
+                        "label": "英语",
+                        "value": "英语"
+                    },
+                    {
+                        "label": "粤语",
+                        "value": "粤语"
+                    },
+                    {
+                        "label": "闽南语",
+                        "value": "闽南语"
+                    },
+                    {
+                        "label": "韩语",
+                        "value": "韩语"
+                    },
+                    {
+                        "label": "日语",
+                        "value": "日语"
+                    },
+                    {
+                        "label": "法语",
+                        "value": "法语"
+                    },
+                    {
+                        "label": "德语",
+                        "value": "德语"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "德国",
+                        "value": "德国"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "意大利",
+                        "value": "意大利"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "其他"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "values": [
+                    {
+                        "label": "最新",
+                        "value": "time"
+                    },
+                    {
+                        "label": "最热",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "a.myui-vodlist__thumb&&data-original",
+            "title": "div.myui-vodlist__detail h4 a&&text",
+            "subTitle": "div.myui-vodlist__detail p&&text",
+            "jumpUrl": "div.myui-vodlist__box a.myui-vodlist__thumb&&href"
+        }
+    },
+    {
+        "title": "新片场",
+        "icon": "https://www.xinpianchang.com/favicon/apple-touch-icon.png",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "allowDomains": "xinpianchang.com",
+        "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Mobile Safari/537.36",
+        "baseUrl": "https://www.xinpianchang.com/",
+        "group": "短视频",
+        "searchUrl": "https://www.xinpianchang.com/index.php?app=search&ac=index&sort_type=default&ts=article&kw=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "ul.video-list a.video-cover img&&_src",
+            "title": "ul.video-list div.video-con div.video-con-top a p&&text",
+            "subTitle": "ul.video-list div.video-con div.video-con-top div.new-cate span&&text",
+            "jumpUrl": "js:function generateValues(documentContent){const htmlContent=$base64.decode(documentContent);const elements=$browser.selectForArray(htmlContent,\"ul.video-list li.enter-filmplay&&data-articleid\");const resultSet=[];for(var index in elements){resultSet.push(\"https://h5.xinpianchang.com/article/index.html?id=\"+elements[index])}return resultSet}"
+        },
+        "classificationUrl": "https://www.xinpianchang.com/channel/index/id-$id$/sort-$sort$/duration_type-$sort$/page-$page$/resolution_type-/type-",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "全部作品",
+                        "value": "0"
+                    },
+                    {
+                        "label": "广告",
+                        "value": "1"
+                    },
+                    {
+                        "label": "剧情短片",
+                        "value": "2"
+                    },
+                    {
+                        "label": "宣传片",
+                        "value": "3"
+                    },
+                    {
+                        "label": "短视频",
+                        "value": "4"
+                    },
+                    {
+                        "label": "VLog",
+                        "value": "5"
+                    },
+                    {
+                        "label": "创意混剪",
+                        "value": "6"
+                    },
+                    {
+                        "label": "影视",
+                        "value": "7"
+                    },
+                    {
+                        "label": "纪录",
+                        "value": "8"
+                    },
+                    {
+                        "label": "MV",
+                        "value": "9"
+                    },
+                    {
+                        "label": "特殊摄影",
+                        "value": "10"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "11"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "0",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "1"
+                    },
+                    {
+                        "label": "餐饮食品",
+                        "value": "2"
+                    },
+                    {
+                        "label": "手机数码",
+                        "value": "3"
+                    },
+                    {
+                        "label": "网络科技",
+                        "value": "4"
+                    },
+                    {
+                        "label": "汽车",
+                        "value": "5"
+                    },
+                    {
+                        "label": "美妆时尚",
+                        "value": "6"
+                    },
+                    {
+                        "label": "快消产品",
+                        "value": "7"
+                    },
+                    {
+                        "label": "医疗保健",
+                        "value": "8"
+                    },
+                    {
+                        "label": "服装配饰",
+                        "value": "9"
+                    },
+                    {
+                        "label": "家居",
+                        "value": "10"
+                    },
+                    {
+                        "label": "地产金融",
+                        "value": "11"
+                    },
+                    {
+                        "label": "旅行",
+                        "value": "12"
+                    },
+                    {
+                        "label": "家电",
+                        "value": "13"
+                    },
+                    {
+                        "label": "游戏娱乐",
+                        "value": "14"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "15"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "31"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "32"
+                    },
+                    {
+                        "label": "文艺",
+                        "value": "33"
+                    },
+                    {
+                        "label": "励志",
+                        "value": "34"
+                    },
+                    {
+                        "label": "家庭",
+                        "value": "35"
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "36"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "37"
+                    },
+                    {
+                        "label": "青春",
+                        "value": "38"
+                    },
+                    {
+                        "label": "情色",
+                        "value": "39"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "40"
+                    },
+                    {
+                        "label": "惊悚",
+                        "value": "41"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "42"
+                    },
+                    {
+                        "label": "人生",
+                        "value": "43"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "44"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "45"
+                    },
+                    {
+                        "label": "体育",
+                        "value": "46"
+                    },
+                    {
+                        "label": "儿童",
+                        "value": "47"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "48"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "16"
+                    },
+                    {
+                        "label": "企业",
+                        "value": "17"
+                    },
+                    {
+                        "label": "国家城市",
+                        "value": "18"
+                    },
+                    {
+                        "label": "活动",
+                        "value": "19"
+                    },
+                    {
+                        "label": "人物形象",
+                        "value": "20"
+                    },
+                    {
+                        "label": "政府",
+                        "value": "21"
+                    },
+                    {
+                        "label": "学校",
+                        "value": "22"
+                    },
+                    {
+                        "label": "医院",
+                        "value": "23"
+                    },
+                    {
+                        "label": "公益",
+                        "value": "24"
+                    },
+                    {
+                        "label": "栏目",
+                        "value": "25"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "26"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "29"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "5",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "129"
+                    },
+                    {
+                        "label": "旅行",
+                        "value": "130"
+                    },
+                    {
+                        "label": "美食",
+                        "value": "131"
+                    },
+                    {
+                        "label": "干货",
+                        "value": "132"
+                    },
+                    {
+                        "label": "器材",
+                        "value": "133"
+                    },
+                    {
+                        "label": "幕后",
+                        "value": "134"
+                    },
+                    {
+                        "label": "日常",
+                        "value": "135"
+                    },
+                    {
+                        "label": "活动",
+                        "value": "136"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "137"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "6",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "76"
+                    },
+                    {
+                        "label": "创意",
+                        "value": "77"
+                    },
+                    {
+                        "label": "混剪",
+                        "value": "78"
+                    },
+                    {
+                        "label": "实验",
+                        "value": "79"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "80"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "7",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "81"
+                    },
+                    {
+                        "label": "预告片",
+                        "value": "82"
+                    },
+                    {
+                        "label": "幕后制作",
+                        "value": "83"
+                    },
+                    {
+                        "label": "花絮",
+                        "value": "84"
+                    },
+                    {
+                        "label": "网络大电影",
+                        "value": "85"
+                    },
+                    {
+                        "label": "网剧/电视剧",
+                        "value": "86"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "87"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "8",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "49"
+                    },
+                    {
+                        "label": "旅行",
+                        "value": "50"
+                    },
+                    {
+                        "label": "婚礼",
+                        "value": "51"
+                    },
+                    {
+                        "label": "励志",
+                        "value": "52"
+                    },
+                    {
+                        "label": "社会",
+                        "value": "53"
+                    },
+                    {
+                        "label": "人物",
+                        "value": "54"
+                    },
+                    {
+                        "label": "活动",
+                        "value": "55"
+                    },
+                    {
+                        "label": "亲情",
+                        "value": "56"
+                    },
+                    {
+                        "label": "自然",
+                        "value": "57"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "58"
+                    },
+                    {
+                        "label": "美食",
+                        "value": "59"
+                    },
+                    {
+                        "label": "运动",
+                        "value": "138"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "60"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "9",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "27"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "10",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "61"
+                    },
+                    {
+                        "label": "延时",
+                        "value": "62"
+                    },
+                    {
+                        "label": "航拍",
+                        "value": "63"
+                    },
+                    {
+                        "label": "高速",
+                        "value": "64"
+                    },
+                    {
+                        "label": "移轴",
+                        "value": "65"
+                    },
+                    {
+                        "label": "水下",
+                        "value": "66"
+                    },
+                    {
+                        "label": "微距",
+                        "value": "67"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "68"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "11",
+                "templateKey": "id",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "69"
+                    },
+                    {
+                        "label": "二维动画",
+                        "value": "70"
+                    },
+                    {
+                        "label": "三维动画",
+                        "value": "71"
+                    },
+                    {
+                        "label": "Mograph",
+                        "value": "72"
+                    },
+                    {
+                        "label": "定格动画",
+                        "value": "73"
+                    },
+                    {
+                        "label": "包装动画",
+                        "value": "74"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "75"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "values": [
+                    {
+                        "label": "热门",
+                        "value": "like"
+                    },
+                    {
+                        "label": "精选",
+                        "value": "pick"
+                    },
+                    {
+                        "label": "最新",
+                        "value": "addtime"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "a.video-cover img&&_src",
+            "title": "div.video-con div.video-con-top a p&&text",
+            "jumpUrl": "js:function generateValues(documentContent){const htmlContent=$base64.decode(documentContent);const elements=$browser.selectForArray(htmlContent,\"ul.video-list li.enter-filmplay&&data-articleid\");const resultSet=[];for(var index in elements){resultSet.push(\"https://h5.xinpianchang.com/article/index.html?id=\"+elements[index])}return resultSet}"
+        }
+    },
+    {
+        "title": "大师兄影视",
+        "icon": "https://zz.ci/template/ec_TV/images/ico/icon152.png",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "https://zz.ci/",
+        "allowDomains": "zz.ci",
+        "group": "常看",
+        "searchUrl": "https://zz.ci/index.php/vod/search/wd/$keyWords$.html",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "div.ec-search a.play-img div.ecimgbor&&data-original",
+            "title": "div.ec-search a.ecitem-name&&text",
+            "subTitle": "div.ec-search div.ec-item&&text",
+            "desc": "div.ec-search p.ecitem-desc&&text",
+            "jumpUrl": "div.ec-search a.ecitem-name&&href"
+        },
+        "classificationUrl": "https://zz.ci/index.php/vod/show/$area$$id$$year$$page$.html",
+        "classificationPageTemplate": "/page/$page$",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "电视剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "1"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "6"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "7"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "8"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "9"
+                    },
+                    {
+                        "label": "奇幻片",
+                        "value": "38"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "10"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "11"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "12"
+                    },
+                    {
+                        "label": "纪录片",
+                        "value": "22"
+                    },
+                    {
+                        "label": "悬疑片",
+                        "value": "44"
+                    },
+                    {
+                        "label": "冒险片",
+                        "value": "45"
+                    },
+                    {
+                        "label": "犯罪片",
+                        "value": "46"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "2"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "13"
+                    },
+                    {
+                        "label": "港台剧",
+                        "value": "14"
+                    },
+                    {
+                        "label": "日韩剧",
+                        "value": "15"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "16"
+                    },
+                    {
+                        "label": "海外剧",
+                        "value": "23"
+                    },
+                    {
+                        "label": "动画片",
+                        "value": "50"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "3"
+                    },
+                    {
+                        "label": "内地综艺",
+                        "value": "29"
+                    },
+                    {
+                        "label": "港台综艺",
+                        "value": "30"
+                    },
+                    {
+                        "label": "日韩综艺",
+                        "value": "31"
+                    },
+                    {
+                        "label": "欧美综艺",
+                        "value": "32"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "id",
+                "template": "/id/$id$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "4"
+                    },
+                    {
+                        "label": "国产动漫",
+                        "value": "33"
+                    },
+                    {
+                        "label": "日韩动漫",
+                        "value": "34"
+                    },
+                    {
+                        "label": "欧美动漫",
+                        "value": "35"
+                    },
+                    {
+                        "label": "港台动漫",
+                        "value": "36"
+                    },
+                    {
+                        "label": "海外动漫",
+                        "value": "37"
+                    },
+                    {
+                        "label": "动漫电影",
+                        "value": "39"
+                    },
+                    {
+                        "label": "番剧",
+                        "value": "60"
+                    },
+                    {
+                        "label": "国创",
+                        "value": "61"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "template": "/area/$area$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "德国",
+                        "value": "德国"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "意大利",
+                        "value": "意大利"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "加拿大"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "年代",
+                "templateKey": "year",
+                "template": "/year/$year$",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    },
+                    {
+                        "label": "2009",
+                        "value": "2009"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "a.aplus-exp div.eclazy&&data-original",
+            "title": "div.pack-packcover a.aplus-exp&&title",
+            "subTitle": "div.pack-infolist div.pack-subtitle&&text",
+            "jumpUrl": "div.pack-packcover a.aplus-exp&&href"
+        }
+    },
+    {
+        "title": "电影先生",
+        "icon": "http://dianying.im/statics/logo.png",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "http://dianying.im",
+        "allowDomains": "dianying.im",
+        "group": "常看",
+        "searchUrl": "http://dianying.im/search-$keyWords$-------------/",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "div.module-search-item div.module-item-pic img&&data-src",
+            "title": "div.module-search-item div.module-item-pic img&&alt",
+            "desc": "div.module-search-item div.video-info-items div.video-info-item&&text",
+            "jumpUrl": "div.module-search-item div.module-item-pic a&&href"
+        },
+        "classificationUrl": "http://dianying.im/pianku-$classification$-$area$-hits-$plot$-$language$----$page$---$year$/",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "电视剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "dianying"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "dongzuopian"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "xijupian"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "juqingpian"
+                    },
+                    {
+                        "label": "动画片",
+                        "value": "donghuapian"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "aiqingpian"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "kongbupian"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "kehuanpian"
+                    },
+                    {
+                        "label": "奇幻片",
+                        "value": "qihuanpian"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "zhanzhengpian"
+                    },
+                    {
+                        "label": "纪录片",
+                        "value": "jilupian"
+                    },
+                    {
+                        "label": "微电影",
+                        "value": "weidianying"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "dianshiju"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "guochanju"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "oumeiju"
+                    },
+                    {
+                        "label": "韩剧",
+                        "value": "hanju"
+                    },
+                    {
+                        "label": "日剧",
+                        "value": "riju"
+                    },
+                    {
+                        "label": "台湾剧",
+                        "value": "taiwanju"
+                    },
+                    {
+                        "label": "港剧",
+                        "value": "gangju"
+                    },
+                    {
+                        "label": "泰剧",
+                        "value": "taiju"
+                    },
+                    {
+                        "label": "海外剧",
+                        "value": "haiwaiju"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "dongman"
+                    },
+                    {
+                        "label": "日韩动漫",
+                        "value": "rihandongman"
+                    },
+                    {
+                        "label": "国产动漫",
+                        "value": "guochandongman"
+                    },
+                    {
+                        "label": "欧美动漫",
+                        "value": "oumeidongman"
+                    },
+                    {
+                        "label": "其他动漫",
+                        "value": "qitadongman"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "zongyi"
+                    },
+                    {
+                        "label": "内地综艺",
+                        "value": "neidizongyi"
+                    },
+                    {
+                        "label": "港台综艺",
+                        "value": "gangtaizongyi"
+                    },
+                    {
+                        "label": "日韩综艺",
+                        "value": "rihanzongyi"
+                    },
+                    {
+                        "label": "欧美综艺",
+                        "value": "oumeizongyi"
+                    }
+                ]
+            },
+            {
+                "title": "剧情",
+                "templateKey": "plot",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "剧情",
+                        "value": "剧情"
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "喜剧"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "动作"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "爱情"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "科幻"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "动画"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "悬疑"
+                    },
+                    {
+                        "label": "惊悚",
+                        "value": "惊悚"
+                    },
+                    {
+                        "label": "警匪",
+                        "value": "警匪"
+                    },
+                    {
+                        "label": "恐怖",
+                        "value": "恐怖"
+                    },
+                    {
+                        "label": "犯罪",
+                        "value": "犯罪"
+                    },
+                    {
+                        "label": "同性",
+                        "value": "同性"
+                    },
+                    {
+                        "label": "音乐",
+                        "value": "音乐"
+                    },
+                    {
+                        "label": "歌舞",
+                        "value": "歌舞"
+                    },
+                    {
+                        "label": "传记",
+                        "value": "传记"
+                    },
+                    {
+                        "label": "历史",
+                        "value": "历史"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "战争"
+                    },
+                    {
+                        "label": "西部",
+                        "value": "西部"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "奇幻"
+                    },
+                    {
+                        "label": "冒险",
+                        "value": "冒险"
+                    },
+                    {
+                        "label": "灾难",
+                        "value": "灾难"
+                    },
+                    {
+                        "label": "武侠",
+                        "value": "武侠"
+                    },
+                    {
+                        "label": "古装",
+                        "value": "古装"
+                    },
+                    {
+                        "label": "纪录",
+                        "value": "纪录"
+                    },
+                    {
+                        "label": "运动",
+                        "value": "运动"
+                    },
+                    {
+                        "label": "青春",
+                        "value": "青春"
+                    },
+                    {
+                        "label": "偶像",
+                        "value": "偶像"
+                    },
+                    {
+                        "label": "都市",
+                        "value": "都市"
+                    },
+                    {
+                        "label": "情景",
+                        "value": "情景"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部地区",
+                        "value": ""
+                    },
+                    {
+                        "label": "中国大陆",
+                        "value": "中国大陆"
+                    },
+                    {
+                        "label": "中国香港",
+                        "value": "中国香港"
+                    },
+                    {
+                        "label": "中国台湾",
+                        "value": "中国台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "新加坡",
+                        "value": "新加坡"
+                    },
+                    {
+                        "label": "马来西亚",
+                        "value": "马来西亚"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "加拿大"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "俄罗斯",
+                        "value": "俄罗斯"
+                    },
+                    {
+                        "label": "澳大利亚",
+                        "value": "澳大利亚"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "语言",
+                "templateKey": "language",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部语言",
+                        "value": ""
+                    },
+                    {
+                        "label": "国语",
+                        "value": "国语"
+                    },
+                    {
+                        "label": "英语",
+                        "value": "英语"
+                    },
+                    {
+                        "label": "粤语",
+                        "value": "粤语"
+                    },
+                    {
+                        "label": "闽南语",
+                        "value": "闽南语"
+                    },
+                    {
+                        "label": "韩语",
+                        "value": "韩语"
+                    },
+                    {
+                        "label": "日语",
+                        "value": "日语"
+                    },
+                    {
+                        "label": "法语",
+                        "value": "法语"
+                    },
+                    {
+                        "label": "德语",
+                        "value": "德语"
+                    },
+                    {
+                        "label": "意大利语",
+                        "value": "意大利语"
+                    },
+                    {
+                        "label": "泰语",
+                        "value": "泰语"
+                    },
+                    {
+                        "label": "西班牙语",
+                        "value": "西班牙语"
+                    },
+                    {
+                        "label": "葡萄牙语",
+                        "value": "葡萄牙语"
+                    },
+                    {
+                        "label": "印地语",
+                        "value": "印地语"
+                    },
+                    {
+                        "label": "泰米尔语",
+                        "value": "泰米尔语"
+                    },
+                    {
+                        "label": "俄语",
+                        "value": "俄语"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部时间",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    },
+                    {
+                        "label": "2009",
+                        "value": "2009"
+                    },
+                    {
+                        "label": "2008",
+                        "value": "2008"
+                    },
+                    {
+                        "label": "2007",
+                        "value": "2007"
+                    },
+                    {
+                        "label": "2006",
+                        "value": "2006"
+                    },
+                    {
+                        "label": "2005",
+                        "value": "2005"
+                    },
+                    {
+                        "label": "更早",
+                        "value": "更早"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "values": [
+                    {
+                        "label": "时间",
+                        "value": "time"
+                    },
+                    {
+                        "label": "人气",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "div.module-item-pic img&&data-src",
+            "title": "div.module-item-pic img&&alt",
+            "subTitle": "div.module-item div.module-item-text&&text",
+            "jumpUrl": "div.module-item-cover div.module-item-pic a&&href"
+        }
+    },
+    {
+        "title": "VIP电影网",
+        "icon": "https://cdn.jsdelivr.net/gh/allcdn/mb12/img/favicon.ico",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "http://www.vipdy5.com",
+        "group": "常看",
+        "searchUrl": "http://www.vipdy5.com/videosearch.html?wd=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "ul.stui-vodlist__media li div.thumb a&&data-original",
+            "title": "ul.stui-vodlist__media li div.thumb a&&title",
+            "jumpUrl": "ul.stui-vodlist__media li div.thumb a&&href"
+        },
+        "classificationUrl": "http://www.vipdy5.com/typeshow/$classification$$area$$sort$$plot$$language$$page$$year$.html",
+        "classificationPageTemplate": "/page/$page$",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "电视剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "dianying"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "dongzuopian"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "xijupian"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "juqingpian"
+                    },
+                    {
+                        "label": "动画片",
+                        "value": "donghuapian"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "aiqingpian"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "kongbupian"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "kehuanpian"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "zhanzhengpian"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "duanshiju"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "guochanju"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "oumeiju"
+                    },
+                    {
+                        "label": "港台剧",
+                        "value": "gangtaiju"
+                    },
+                    {
+                        "label": "日韩剧",
+                        "value": "rihanju"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "zongyi"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "dongman"
+                    }
+                ]
+            },
+            {
+                "title": "剧情",
+                "templateKey": "plot",
+                "template": "/class/$plot$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "剧情",
+                        "value": "剧情"
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "喜剧"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "动作"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "爱情"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "科幻"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "动画"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "悬疑"
+                    },
+                    {
+                        "label": "惊悚",
+                        "value": "惊悚"
+                    },
+                    {
+                        "label": "警匪",
+                        "value": "警匪"
+                    },
+                    {
+                        "label": "恐怖",
+                        "value": "恐怖"
+                    },
+                    {
+                        "label": "犯罪",
+                        "value": "犯罪"
+                    },
+                    {
+                        "label": "同性",
+                        "value": "同性"
+                    },
+                    {
+                        "label": "音乐",
+                        "value": "音乐"
+                    },
+                    {
+                        "label": "歌舞",
+                        "value": "歌舞"
+                    },
+                    {
+                        "label": "传记",
+                        "value": "传记"
+                    },
+                    {
+                        "label": "历史",
+                        "value": "历史"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "战争"
+                    },
+                    {
+                        "label": "西部",
+                        "value": "西部"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "奇幻"
+                    },
+                    {
+                        "label": "冒险",
+                        "value": "冒险"
+                    },
+                    {
+                        "label": "灾难",
+                        "value": "灾难"
+                    },
+                    {
+                        "label": "武侠",
+                        "value": "武侠"
+                    },
+                    {
+                        "label": "古装",
+                        "value": "古装"
+                    },
+                    {
+                        "label": "纪录",
+                        "value": "纪录"
+                    },
+                    {
+                        "label": "运动",
+                        "value": "运动"
+                    },
+                    {
+                        "label": "青春",
+                        "value": "青春"
+                    },
+                    {
+                        "label": "偶像",
+                        "value": "偶像"
+                    },
+                    {
+                        "label": "都市",
+                        "value": "都市"
+                    },
+                    {
+                        "label": "情景",
+                        "value": "情景"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "template": "/area/$area$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部地区",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "新加坡",
+                        "value": "新加坡"
+                    },
+                    {
+                        "label": "马来西亚",
+                        "value": "马来西亚"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "加拿大"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "俄罗斯",
+                        "value": "俄罗斯"
+                    },
+                    {
+                        "label": "澳大利亚",
+                        "value": "澳大利亚"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "语言",
+                "templateKey": "language",
+                "template": "/lang/$language$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部语言",
+                        "value": ""
+                    },
+                    {
+                        "label": "国语",
+                        "value": "国语"
+                    },
+                    {
+                        "label": "英语",
+                        "value": "英语"
+                    },
+                    {
+                        "label": "粤语",
+                        "value": "粤语"
+                    },
+                    {
+                        "label": "闽南语",
+                        "value": "闽南语"
+                    },
+                    {
+                        "label": "韩语",
+                        "value": "韩语"
+                    },
+                    {
+                        "label": "日语",
+                        "value": "日语"
+                    },
+                    {
+                        "label": "法语",
+                        "value": "法语"
+                    },
+                    {
+                        "label": "德语",
+                        "value": "德语"
+                    },
+                    {
+                        "label": "意大利语",
+                        "value": "意大利语"
+                    },
+                    {
+                        "label": "泰语",
+                        "value": "泰语"
+                    },
+                    {
+                        "label": "西班牙语",
+                        "value": "西班牙语"
+                    },
+                    {
+                        "label": "葡萄牙语",
+                        "value": "葡萄牙语"
+                    },
+                    {
+                        "label": "印地语",
+                        "value": "印地语"
+                    },
+                    {
+                        "label": "泰米尔语",
+                        "value": "泰米尔语"
+                    },
+                    {
+                        "label": "俄语",
+                        "value": "俄语"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "template": "/year/$year$",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部时间",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    },
+                    {
+                        "label": "2009",
+                        "value": "2009"
+                    },
+                    {
+                        "label": "2008",
+                        "value": "2008"
+                    },
+                    {
+                        "label": "2007",
+                        "value": "2007"
+                    },
+                    {
+                        "label": "2006",
+                        "value": "2006"
+                    },
+                    {
+                        "label": "2005",
+                        "value": "2005"
+                    },
+                    {
+                        "label": "更早",
+                        "value": "更早"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "template": "/by/$sort$",
+                "values": [
+                    {
+                        "label": "时间",
+                        "value": "time"
+                    },
+                    {
+                        "label": "人气",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "ul.stui-vodlist li a.stui-vodlist__thumb&&data-original",
+            "title": "ul.stui-vodlist li a.stui-vodlist__thumb&&title",
+            "subTitle": "ul.stui-vodlist li div.stui-vodlist__detail p&&text",
+            "jumpUrl": "ul.stui-vodlist li a.stui-vodlist__thumb&&href"
+        }
+    },
+    {
+        "title": "电影家园",
+        "icon": "http://www.xs-dczx.com/template/mytheme/statics/img/favicon.ico",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "http://www.xs-dczx.com",
+        "group": "常看",
+        "searchUrl": "http://www.xs-dczx.com/search/------------.html?wd=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "ul.myui-vodlist__media li div.thumb a&&data-original",
+            "title": "ul.myui-vodlist__media li div.thumb a&&title",
+            "jumpUrl": "ul.myui-vodlist__media li div.thumb a&&href"
+        },
+        "classificationUrl": "http://www.xs-dczx.com/vodshow/$classification$-$area$-$sort$-$plot$-----$page$---$year$.html",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "isParent": true,
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "电视剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "1",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "1"
+                    },
+                    {
+                        "label": "动作片",
+                        "value": "6"
+                    },
+                    {
+                        "label": "喜剧片",
+                        "value": "7"
+                    },
+                    {
+                        "label": "剧情片",
+                        "value": "11"
+                    },
+                    {
+                        "label": "预告片",
+                        "value": "21"
+                    },
+                    {
+                        "label": "爱情片",
+                        "value": "8"
+                    },
+                    {
+                        "label": "恐怖片",
+                        "value": "10"
+                    },
+                    {
+                        "label": "科幻片",
+                        "value": "9"
+                    },
+                    {
+                        "label": "战争片",
+                        "value": "12"
+                    },
+                    {
+                        "label": "福利片",
+                        "value": "20"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "2",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "2"
+                    },
+                    {
+                        "label": "国产剧",
+                        "value": "13"
+                    },
+                    {
+                        "label": "欧美剧",
+                        "value": "16"
+                    },
+                    {
+                        "label": "港台剧",
+                        "value": "14"
+                    },
+                    {
+                        "label": "日韩剧",
+                        "value": "15"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "3",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "title": "分类",
+                "parentTemplateKey": "category",
+                "parentValue": "4",
+                "templateKey": "classification",
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "剧情",
+                "templateKey": "plot",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "剧情",
+                        "value": "剧情"
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "喜剧"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "动作"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "爱情"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "科幻"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "动画"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "悬疑"
+                    },
+                    {
+                        "label": "惊悚",
+                        "value": "惊悚"
+                    },
+                    {
+                        "label": "警匪",
+                        "value": "警匪"
+                    },
+                    {
+                        "label": "恐怖",
+                        "value": "恐怖"
+                    },
+                    {
+                        "label": "犯罪",
+                        "value": "犯罪"
+                    },
+                    {
+                        "label": "同性",
+                        "value": "同性"
+                    },
+                    {
+                        "label": "音乐",
+                        "value": "音乐"
+                    },
+                    {
+                        "label": "歌舞",
+                        "value": "歌舞"
+                    },
+                    {
+                        "label": "传记",
+                        "value": "传记"
+                    },
+                    {
+                        "label": "历史",
+                        "value": "历史"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "战争"
+                    },
+                    {
+                        "label": "西部",
+                        "value": "西部"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "奇幻"
+                    },
+                    {
+                        "label": "冒险",
+                        "value": "冒险"
+                    },
+                    {
+                        "label": "灾难",
+                        "value": "灾难"
+                    },
+                    {
+                        "label": "武侠",
+                        "value": "武侠"
+                    },
+                    {
+                        "label": "古装",
+                        "value": "古装"
+                    },
+                    {
+                        "label": "纪录",
+                        "value": "纪录"
+                    },
+                    {
+                        "label": "运动",
+                        "value": "运动"
+                    },
+                    {
+                        "label": "青春",
+                        "value": "青春"
+                    },
+                    {
+                        "label": "偶像",
+                        "value": "偶像"
+                    },
+                    {
+                        "label": "都市",
+                        "value": "都市"
+                    },
+                    {
+                        "label": "情景",
+                        "value": "情景"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部地区",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "新加坡",
+                        "value": "新加坡"
+                    },
+                    {
+                        "label": "马来西亚",
+                        "value": "马来西亚"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "加拿大"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "俄罗斯",
+                        "value": "俄罗斯"
+                    },
+                    {
+                        "label": "澳大利亚",
+                        "value": "澳大利亚"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部时间",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    },
+                    {
+                        "label": "2009",
+                        "value": "2009"
+                    },
+                    {
+                        "label": "2008",
+                        "value": "2008"
+                    },
+                    {
+                        "label": "2007",
+                        "value": "2007"
+                    },
+                    {
+                        "label": "2006",
+                        "value": "2006"
+                    },
+                    {
+                        "label": "2005",
+                        "value": "2005"
+                    },
+                    {
+                        "label": "更早",
+                        "value": "更早"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "values": [
+                    {
+                        "label": "时间",
+                        "value": "time"
+                    },
+                    {
+                        "label": "人气",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "ul.myui-vodlist li a.myui-vodlist__thumb&&data-original",
+            "title": "ul.myui-vodlist li a.myui-vodlist__thumb&&title",
+            "subTitle": "ul.myui-vodlist li div.myui-vodlist__detail p&&text",
+            "jumpUrl": "ul.myui-vodlist li a.myui-vodlist__thumb&&href"
+        }
+    },
+    {
+        "title": "91影院",
+        "icon": "https://www.91cinema.com/favicon.ico",
+        "type": "MOVIE_SITE",
+        "author": "革奴",
+        "version": "1",
+        "protocolVersion": "1",
+        "baseUrl": "https://www.91cinema.com",
+        "group": "常看",
+        "searchUrl": "https://www.91cinema.com/vsearch/-------------.html?wd=$keyWords$",
+        "searchWordsUrlEncode": true,
+        "searchMovieRule": {
+            "img": "div.itemList div.item div.posterPlaceholder img&&src",
+            "title": "div.itemList div.item div.posterPlaceholder a&&title",
+            "desc": "div.itemList div.item div.txtIntroCon ul li.extend&&text",
+            "jumpUrl": "div.itemList div.item div.posterPlaceholder a&&href"
+        },
+        "classificationUrl": "https://www.91cinema.com/vshow/$category$-$area$-$sort$-$plot$-----$page$---$year$.html",
+        "classificationPageTemplateKey": "page",
+        "classifications": [
+            {
+                "title": "频道",
+                "templateKey": "category",
+                "values": [
+                    {
+                        "label": "电影",
+                        "value": "1"
+                    },
+                    {
+                        "label": "电视剧",
+                        "value": "2"
+                    },
+                    {
+                        "label": "综艺",
+                        "value": "3"
+                    },
+                    {
+                        "label": "动漫",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "title": "剧情",
+                "templateKey": "plot",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部",
+                        "value": ""
+                    },
+                    {
+                        "label": "剧情",
+                        "value": "剧情"
+                    },
+                    {
+                        "label": "喜剧",
+                        "value": "喜剧"
+                    },
+                    {
+                        "label": "动作",
+                        "value": "动作"
+                    },
+                    {
+                        "label": "爱情",
+                        "value": "爱情"
+                    },
+                    {
+                        "label": "科幻",
+                        "value": "科幻"
+                    },
+                    {
+                        "label": "动画",
+                        "value": "动画"
+                    },
+                    {
+                        "label": "悬疑",
+                        "value": "悬疑"
+                    },
+                    {
+                        "label": "惊悚",
+                        "value": "惊悚"
+                    },
+                    {
+                        "label": "警匪",
+                        "value": "警匪"
+                    },
+                    {
+                        "label": "恐怖",
+                        "value": "恐怖"
+                    },
+                    {
+                        "label": "犯罪",
+                        "value": "犯罪"
+                    },
+                    {
+                        "label": "同性",
+                        "value": "同性"
+                    },
+                    {
+                        "label": "音乐",
+                        "value": "音乐"
+                    },
+                    {
+                        "label": "歌舞",
+                        "value": "歌舞"
+                    },
+                    {
+                        "label": "传记",
+                        "value": "传记"
+                    },
+                    {
+                        "label": "历史",
+                        "value": "历史"
+                    },
+                    {
+                        "label": "战争",
+                        "value": "战争"
+                    },
+                    {
+                        "label": "西部",
+                        "value": "西部"
+                    },
+                    {
+                        "label": "奇幻",
+                        "value": "奇幻"
+                    },
+                    {
+                        "label": "冒险",
+                        "value": "冒险"
+                    },
+                    {
+                        "label": "灾难",
+                        "value": "灾难"
+                    },
+                    {
+                        "label": "武侠",
+                        "value": "武侠"
+                    },
+                    {
+                        "label": "古装",
+                        "value": "古装"
+                    },
+                    {
+                        "label": "纪录",
+                        "value": "纪录"
+                    },
+                    {
+                        "label": "运动",
+                        "value": "运动"
+                    },
+                    {
+                        "label": "青春",
+                        "value": "青春"
+                    },
+                    {
+                        "label": "偶像",
+                        "value": "偶像"
+                    },
+                    {
+                        "label": "都市",
+                        "value": "都市"
+                    },
+                    {
+                        "label": "情景",
+                        "value": "情景"
+                    },
+                    {
+                        "label": "其他",
+                        "value": "其他"
+                    }
+                ]
+            },
+            {
+                "title": "地区",
+                "templateKey": "area",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部地区",
+                        "value": ""
+                    },
+                    {
+                        "label": "大陆",
+                        "value": "大陆"
+                    },
+                    {
+                        "label": "香港",
+                        "value": "香港"
+                    },
+                    {
+                        "label": "台湾",
+                        "value": "台湾"
+                    },
+                    {
+                        "label": "美国",
+                        "value": "美国"
+                    },
+                    {
+                        "label": "韩国",
+                        "value": "韩国"
+                    },
+                    {
+                        "label": "日本",
+                        "value": "日本"
+                    },
+                    {
+                        "label": "泰国",
+                        "value": "泰国"
+                    },
+                    {
+                        "label": "新加坡",
+                        "value": "新加坡"
+                    },
+                    {
+                        "label": "马来西亚",
+                        "value": "马来西亚"
+                    },
+                    {
+                        "label": "印度",
+                        "value": "印度"
+                    },
+                    {
+                        "label": "英国",
+                        "value": "英国"
+                    },
+                    {
+                        "label": "法国",
+                        "value": "法国"
+                    },
+                    {
+                        "label": "加拿大",
+                        "value": "加拿大"
+                    },
+                    {
+                        "label": "西班牙",
+                        "value": "西班牙"
+                    },
+                    {
+                        "label": "俄罗斯",
+                        "value": "俄罗斯"
+                    },
+                    {
+                        "label": "澳大利亚",
+                        "value": "澳大利亚"
+                    },
+                    {
+                        "label": "其它",
+                        "value": "其它"
+                    }
+                ]
+            },
+            {
+                "title": "年份",
+                "templateKey": "year",
+                "classificationUrlEncode": true,
+                "values": [
+                    {
+                        "label": "全部时间",
+                        "value": ""
+                    },
+                    {
+                        "label": "2021",
+                        "value": "2021"
+                    },
+                    {
+                        "label": "2020",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "2019",
+                        "value": "2019"
+                    },
+                    {
+                        "label": "2018",
+                        "value": "2018"
+                    },
+                    {
+                        "label": "2017",
+                        "value": "2017"
+                    },
+                    {
+                        "label": "2016",
+                        "value": "2016"
+                    },
+                    {
+                        "label": "2015",
+                        "value": "2015"
+                    },
+                    {
+                        "label": "2014",
+                        "value": "2014"
+                    },
+                    {
+                        "label": "2013",
+                        "value": "2013"
+                    },
+                    {
+                        "label": "2012",
+                        "value": "2012"
+                    },
+                    {
+                        "label": "2011",
+                        "value": "2011"
+                    },
+                    {
+                        "label": "2010",
+                        "value": "2010"
+                    },
+                    {
+                        "label": "2009",
+                        "value": "2009"
+                    },
+                    {
+                        "label": "2008",
+                        "value": "2008"
+                    },
+                    {
+                        "label": "2007",
+                        "value": "2007"
+                    },
+                    {
+                        "label": "2006",
+                        "value": "2006"
+                    },
+                    {
+                        "label": "2005",
+                        "value": "2005"
+                    },
+                    {
+                        "label": "更早",
+                        "value": "更早"
+                    }
+                ]
+            },
+            {
+                "title": "排序",
+                "templateKey": "sort",
+                "values": [
+                    {
+                        "label": "时间",
+                        "value": "time"
+                    },
+                    {
+                        "label": "人气",
+                        "value": "hits"
+                    },
+                    {
+                        "label": "评分",
+                        "value": "score"
+                    }
+                ]
+            }
+        ],
+        "movieRule": {
+            "img": "ul.img-list li.yk-pack div.p-thumb img&&data-original",
+            "title": "ul.img-list li.yk-pack div.p-thumb a&&title",
+            "subTitle": "ul.img-list li.yk-pack ul.info-list span&&text",
+            "jumpUrl": "ul.img-list li.yk-pack div.p-thumb a&&href"
+        }
+    }
+]
