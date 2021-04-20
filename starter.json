@@ -2,7 +2,7 @@
     "title": "初始规则",
     "version": "0.1",
     "author": "革奴",
-    "subscribeUrl": "https://github.com/CodingBingo/JustSeeStore/blob/master/starter.json",
+    "subscribeUrl": "https://raw.githubusercontent.com/CodingBingo/JustSeeStore/master/starter.json",
     "sites": [
         {
             "title": "番茄影视",
